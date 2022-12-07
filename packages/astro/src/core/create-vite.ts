@@ -92,7 +92,7 @@ export async function createVite(
 		},
 	});
 
-	const contentConfig = await loadContentConfig({ settings });
+	const contentConfig = await loadContentConfig({ fs, settings });
 
 	// Start with the Vite configuration that Astro core needs
 	const commonConfig: vite.InlineConfig = {
@@ -122,8 +122,8 @@ export async function createVite(
 			astroIntegrationsContainerPlugin({ settings, logging }),
 			astroScriptsPageSSRPlugin({ settings }),
 			astroHeadPropagationPlugin({ settings }),
-			astroContentVirtualModPlugin({ settings }),
-			astroContentServerPlugin({ settings, logging, contentConfig }),
+			astroContentVirtualModPlugin({ fs, settings }),
+			astroContentServerPlugin({ fs, settings, logging, contentConfig }),
 			astroDelayedAssetPlugin({ settings, mode }),
 		],
 		publicDir: fileURLToPath(settings.config.publicDir),
