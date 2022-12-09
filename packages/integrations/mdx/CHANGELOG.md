@@ -1,5 +1,11 @@
 # @astrojs/mdx
 
+## 0.12.2
+
+### Patch Changes
+
+- [#5570](https://github.com/withastro/astro/pull/5570) [`3f811eb68`](https://github.com/withastro/astro/commit/3f811eb682d55bd1f908f9b4bc3b795d2859d713) Thanks [@sarah11918](https://github.com/sarah11918)! - Revise README
+
 ## 0.12.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # astro
 
+## 1.6.15
+
+### Patch Changes
+
+- [#5554](https://github.com/withastro/astro/pull/5554) [`02bb0a1cc`](https://github.com/withastro/astro/commit/02bb0a1ccd53e38157eec3a750160731fce64b9c) Thanks [@natemoo-re](https://github.com/natemoo-re)! - Update `@astrojs/compiler` to latest
+
 ## 1.6.14
 
 ### Patch Changes

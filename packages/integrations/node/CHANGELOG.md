@@ -1,5 +1,14 @@
 # @astrojs/node
 
+## 3.1.1
+
+### Patch Changes
+
+- [#5560](https://github.com/withastro/astro/pull/5560) [`281ea9fc3`](https://github.com/withastro/astro/commit/281ea9fc344dec4348e398696e671f833334045b) Thanks [@natemoo-re](https://github.com/natemoo-re)! - Improve error message when serverEntrypoint does not exist
+
+- Updated dependencies [[`02bb0a1cc`](https://github.com/withastro/astro/commit/02bb0a1ccd53e38157eec3a750160731fce64b9c)]:
+  - astro@1.6.15
+
 ## 3.1.0
 
 ### Minor Changes
